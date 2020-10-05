@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom right, rgb(11, 146, 187),  rgb(202, 236, 246));
+    min-height: 100vh;
+}
+
+main {
+    margin-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #4F5665;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+form {
+    max-width: 550px;
+    height: 170px;
+    padding: 29px 0;
+    margin: auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+#select-and-filter-wrapper {
+    margin: auto;
+    max-width: 550px;
+}
+
+#input {
+    width: 500px;
+    height: 29px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(11, 146, 187);
+    display: block;
+    margin: auto;
+    outline: none;
+    box-shadow: 0 3px 8px 0 rgba(116, 115, 115, 0.35);
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+#sort, #filter {
+    width: 250px;
+    height: 29px;
+    border-radius: 15px;
+    border: 2px solid rgb(11, 146, 187);
+    display: inline-block;
+    outline: none;
+    box-shadow: 0 3px 8px 0 rgba(116, 115, 115, 0.35);
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+#input:focus, #sort:focus, #filter:focus {
+    background-color: rgb(202, 236, 246);
+    box-shadow: 0 5px 8px 0 rgba(93, 90, 90, 0.35)
+}
+
+select {
+    color: #ac9c8b;
+}
+
+#button-wrapper {
+    padding: 13px 0;
+}
+
+#button {
+    width: 52px;
+    height: 52px;
+    border: 2px solid  rgb(11, 146, 187);
+    background-color: rgb(11, 146, 187);
+    border-radius: 50%;
+    color: white;
+    font-size: 38px;
+    justify-self: right;
+    display: block;
+    margin: auto;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 5px 8px 0 rgba(93, 90, 90, 0.35);
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+#button:hover {
+    background-color: white;
+    color:rgb(11, 146, 187);
+    box-shadow: 0 8px 8px 0 rgba(93, 90, 90, 0.35)
+}
+
+
+.container {
+    margin-top: 40px ;
+    max-width: 800px;
+    min-height: 400px;
+    background-color: rgb(253, 249, 243);
+    border: 2px solid rgb(110, 125, 129);
+    margin: auto;
+    border-radius: 15px;
+}
+
+.toDoList {
+    padding-top: 40px ;
+    width: 90%;
+    margin: auto;
+}
+
+#listOfTasks {
+    padding: 20px 0;
+    width: 550px;
+    margin: auto;
+}
+
+.styleOfTasks {
+    font-size: 25px;
+    color: rgb(29, 162, 202);
+    font-weight: 500;
+    padding: 34px 0;
+    text-align: center;
+    border-bottom: 2px dotted  rgb(11, 146, 187);
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.delete {
+    font-size: 20px;
+    color: rgb(190, 48, 48);
+    font-weight: 500;
+    margin-left: 15px;
+    padding: 3px;
+    border: 1px solid transparent;
+    font-family: 'Montserrat', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.delete:hover {
+    border: 1px solid rgb(190, 48, 48);
+}
+
+.date {
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: rgb(100, 97, 97);
+    font-size: 15px;
+    padding-top: 10px;
+}
