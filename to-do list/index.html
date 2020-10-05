@@ -15,12 +15,24 @@
                 
                 <h1>To-do list</h1>
                 
-                <div class="input-wrapper">
+                <form>
                     <input id="input" type="text" name="input" placeholder="Add Your todo here">
-                    <button id="button">+</button>
-                </div>
-
+                    
+                    <div id="button-wrapper">
+                        <button id="button">+</button>
+                    </div>
+                   
+                    <div id="select-and-filter-wrapper">
+                        <select id="sort">
+                            <option value="name">Sort by task name</option>
+                            <option value="date">Sort by task date</option>
+                        </select>
+                        <input type="text" id="filter" placeholder="Search for Your task">
+                    </div>
+                </form>
                 <div id="listOfTasks" class="listOfTasks"></div>
+              
+
                 
             </div>
             
